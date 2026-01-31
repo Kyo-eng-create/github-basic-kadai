@@ -1,0 +1,27 @@
+yuukikillma@Mac マイドライブ % mkdir git_challenge
+yuukikillma@Mac マイドライブ % cd git_challenge
+yuukikillma@Mac git_challenge % git init
+Initialized empty Git repository in /Users/yuukikillma/Library/CloudStorage/GoogleDrive-shion.makoto.oto@gmail.com/マイドライブ/git_challenge/.git/
+yuukikillma@Mac git_challenge % git add hello_world.txt
+yuukikillma@Mac git_challenge % git commit -m "最初のコミット"
+[main (root-commit) 407dbd2] 最初のコミット
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+yuukikillma@Mac git_challenge % git add hello_world.txt
+yuukikillma@Mac git_challenge % git commit -m "2回目のコミット"
+[main 0e615a2] 2回目のコミット
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+yuukikillma@Mac git_challenge % git log
+commit 0e615a2ab71da277fb9ad1cb6f0b36620ce409fb (HEAD -> main)
+Author: Kyo-eng-create <shion.makoto.oto@gmail.com>
+Date:   Sat Jan 31 22:34:52 2026 +0900
+
+    2回目のコミット
+
+commit 407dbd2bb3830f91732bce5a14c373d33d047176
+Author: Kyo-eng-create <shion.makoto.oto@gmail.com>
+Date:   Sat Jan 31 22:33:36 2026 +0900
+
+    最初のコミット
+yuukikillma@Mac git_challenge % mkdir kadai_005
+yuukikillma@Mac git_challenge % 
